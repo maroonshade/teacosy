@@ -54,3 +54,10 @@ nav li {
   align-content: center;
 
 }
+
+/*Main body*/
+
+.main {
+  background-image: url("images/img-mission-background.jpg");
+  height: 700px;
+}
