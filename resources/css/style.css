@@ -65,6 +65,8 @@ nav li {
   justify-content: center;
   align-items: center;
   align-content: center;
+  width: 1200px;
+  margin: auto;
 }
 
 .our_mission {
