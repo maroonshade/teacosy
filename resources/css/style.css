@@ -10,6 +10,7 @@
 }
 
 
+
 /* header */
 
 header {
@@ -58,6 +59,14 @@ nav li {
 /*Main body*/
 
 .main {
-  background-image: url("images/img-mission-background.jpg");
+  background-image: url("../images/img-mission-background.jpg");
   height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.our_mission {
+  width: 100%;
 }
