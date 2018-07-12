@@ -30,6 +30,7 @@ header img {
 nav {
   display: flex;
   flex-grow: 1;
+  width: 500px;
 
 }
 
