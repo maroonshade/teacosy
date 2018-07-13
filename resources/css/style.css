@@ -86,6 +86,7 @@ nav li {
   display: flex;
   align-content: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .item {
@@ -106,4 +107,38 @@ nav li {
   width: 300px;
   height: 200px;
   padding: 10px;
+}
+
+/* Third part */
+
+.third_section {
+  background-image: url(../images/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  align-items: center;
+  margin: auto;
+
+}
+
+.third_section h2 {
+  padding: 10px;
+}
+
+.third_subsection {
+  display: flex;
+  width: 1100px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.box {
+  margin: 5px 20px;
+  padding: 10px;
+  width: 300px
+  display: flex;
+  flex-direction: column;
+  flex-basis: 280px;
+
+
 }
