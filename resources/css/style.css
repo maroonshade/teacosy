@@ -1,12 +1,23 @@
 /* Universal rules */
 
 * {
-  background-color: black;
-  font-family: Helvetica;
+
+  font-family: "Helvetica" sans-serif;
   color: seashell;
   opacity: 0.9;
   text-align: center;
 
+
+}
+
+/*exceptions*/
+
+*:not(.third_subsection) {
+    background-color: black;
+}
+
+.third_section h2 {
+  background-color: transparent;
 }
 
 
@@ -19,6 +30,7 @@ header {
   width: 100%;
   border-bottom: 1px solid seashell;
   height: 69px;
+
 
 }
 
@@ -71,6 +83,8 @@ nav li {
 
 .our_mission {
   width: 100%;
+
+
 }
 
 /*Second part- Menu preview*/
@@ -79,6 +93,7 @@ nav li {
   width: 1000px;
   align-content: center;
   margin: auto;
+
 }
 
 .menu {
@@ -117,20 +132,24 @@ nav li {
   width: 1200px;
   align-items: center;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
 
 }
 
 .third_section h2 {
-  padding: 10px;
+  padding-top: 100px;
 }
 
 .third_subsection {
   display: flex;
-  flex-direction: column;
   width: 1100px;
   align-items: center;
   justify-content: center;
   margin: auto;
+  padding-bottom: 60px;
 }
 
 .box {
@@ -141,5 +160,12 @@ nav li {
   flex-direction: column;
   flex-basis: 280px;
 
+
+
+}
+
+/*contact*/
+
+.contact {
 
 }
