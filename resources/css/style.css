@@ -2,7 +2,7 @@
 
 * {
 
-  font-family: "Helvetica" sans-serif;
+  font-family: "Helvetica", sans-serif;
   color: seashell;
   opacity: 0.9;
   text-align: center;
@@ -30,6 +30,8 @@ header {
   width: 100%;
   border-bottom: 1px solid seashell;
   height: 69px;
+  position: fixed;
+  z-index: 1;
 
 
 }
@@ -55,8 +57,8 @@ nav li {
   align-items: center;
   text-decoration: underline;
   padding: 10px;
-  font-family: "Helvetica" sans-serif;
   font-size: 22px;
+
 }
 
 .overall {
@@ -114,8 +116,7 @@ nav li {
 
 .item span {
   text-align: center;
-  font-family: "Helvetica" sans-serif;
-  font-size: 22px;
+
 }
 
 .menu_images {
@@ -167,5 +168,10 @@ nav li {
 /*contact*/
 
 .contact {
+  height: 200px;
 
+}
+
+.contact h5 {
+  padding-top: 10px;
 }
